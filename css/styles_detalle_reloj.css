@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.card {
+    max-width: 1024px; /* Ancho máximo de la tarjeta */
+    margin: 0 auto; /* Centrar la tarjeta en la pantalla */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    border-radius: 10px; /* Borde redondeado de la tarjeta */
+    overflow: hidden; /* Ocultar contenido que pueda sobresalir */
+}
+
+.card img {
+    width: 100%; /* Imagen dentro de la tarjeta al 100% del ancho */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-top-left-radius: 10px; /* Borde redondeado en la esquina superior izquierda de la imagen */
+    border-bottom-left-radius: 10px; /* Borde redondeado en la esquina inferior izquierda de la imagen */
+}
+
+.card-body {
+    padding: 20px; /* Espaciado interno del cuerpo de la tarjeta */
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.text-body-secondary {
+    color: #6c757d; /* Color de texto secundario */
+}
+
+button {
+    background-color: #000000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón sobre el botón */
+}
+
+.product-container {
+    margin: 20px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-table th,
+.cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.cart-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.cart-table td img {
+    max-width: 80px;
+    border-radius: 5px;
+}
+
+.cart-table td button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-table td button:hover {
+    background-color: #c82333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+#paypal-button-container {
+    text-align: center; /* Centra los botones en el contenedor */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos para los botones de PayPal */
+.paypal-button {
+    padding: 10px 20px; /* Ajusta el padding para cambiar el tamaño */
+    font-size: 14px; /* Tamaño de la fuente */
+}
+
+
+/* Estilos para los botones de PayPal */
+#paypal-button-container {
+    text-align: center;
+}
+
+/* Estilos para los botones de PayPal */
+.paypal-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0070ba;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.paypal-button:hover {
+    background-color: #00578b;
+}
